@@ -13,6 +13,7 @@ import com.ecocode.repositories.UserRepository;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = {"com.ecocode.repositories"})
 @EntityScan(basePackages = "com.ecocode.entities")
+
 public class MyProjectApplication implements CommandLineRunner {
 
 
